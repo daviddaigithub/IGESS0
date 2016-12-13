@@ -10,6 +10,10 @@ library(IGESS)
 help(package="IGESS")  
 
 ##Development 
+
+This R package is developed by Mingwei Dai and Can Yang.
+
+##Installation
 To install the development version of IGESS, it's easiest to use the 'devtools' package. Note that IGESS depends on the 'Rcpp' and 'RcppArmadillo' package, which also requires appropriate setting of Rtools and Xcode for Windows and Mac OS/X, respectively.
 
 install.packages("devtools")  
@@ -17,6 +21,7 @@ library(devtools)
 install_github("daviddaigithub/IGESS")  
 
 ##References
+M. Dai, J. Ming, M., Cai, J. Liu, C. Yang, X. Wan, and Z. Xu. IGESS: A statistical approach to integrating individual level genotype data and summary statistics in genome wide association studies. 
 
 =======
 # IGESS
