@@ -11,7 +11,7 @@ help(package="IGESS")  
 
 ##Development 
 
-This R package is developed by Mingwei Dai and Can Yang.
+This R package is developed by Mingwei Dai and Can Yang, and maintained by Can Yang <eeyangc@gmail.com>.
 
 ##Installation
 To install the development version of IGESS, it's easiest to use the 'devtools' package. Note that IGESS depends on the 'Rcpp' and 'RcppArmadillo' package, which also requires appropriate setting of Rtools and Xcode for Windows and Mac OS/X, respectively.
