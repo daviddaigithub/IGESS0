@@ -52,7 +52,7 @@ IGESSfit* iGess(float* lpfX, vec y, int P, mat* Z,  mat* lpsummaryinfo, Options*
     double* lpsummary = lpsummaryinfo != NULL ? lpsummaryinfo -> memptr() : NULL;
     uword iter = 0;
 
-    for (int iter = 0; iter < max_iter; iter ++) {
+    for (iter = 0; iter < max_iter; iter ++) {
         clock_t t1 = clock();
         if(iter == 0)  cout <<"Begin Iterations" << endl;
         double logPi = log(pi_p / (1 - pi_p));
